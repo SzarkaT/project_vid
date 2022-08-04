@@ -1,0 +1,404 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', san-serif;
+    box-sizing: border-box;
+    
+}
+
+.hero{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.photo{
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-left: 8%;
+    padding-right: 8%;
+    color:rgb(40, 41, 43);
+    background: rgb(40, 41, 43);
+
+}
+
+nav::after{
+    clear:both;
+    display: table;
+}
+
+.logo{
+    color: black;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span{
+    color:aqua;
+
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color: aqua;
+    transition: .4s;
+
+}
+
+.foo{
+    background-color: aqua;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px 10px;
+    margin:15px;
+    border-radius: 30px;
+}
+.foo:hover{
+    transform:scale(1.1)
+}
+
+.content{
+    position: absolute;
+    top: 75%;
+    left: 8%;
+    transform: translateY(-50%);
+    color: white;
+    margin-top: 85px;
+
+
+}
+
+h1{
+    color: black;
+    margin: 20px 0px 20px;
+    font-size: 77px;
+
+}
+
+h3{
+    color:black;
+    font-size: 25px;
+    margin-bottom: 50%;
+}
+
+h4{
+    color:cadetblue;
+    letter-spacing: 2px;
+    font-size: 20px;
+    
+}
+
+.newsletter form{
+    width: 380px;
+    max-width: 100px;
+    position: relative;
+
+}
+
+.newsletter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 150px 14px;
+    border: 2px solid aqua;
+    outline: none;
+    border-radius: 30px;
+}
+
+.newsletter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: aqua;
+    color:black;
+    box-shadow: 0px 0px 5px black, 0px 0px 15px gray;
+    top: 6px;
+    right: -200px;
+    cursor: pointer;
+}
+
+.newsletter form input:last-child:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid aqua;
+    cursor: pointer;
+}
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: rgb(40, 41, 43);
+    margin-top: -30px;
+
+}
+
+.about img{
+    height: auto;
+    width: 550px;
+    padding: 15px;
+
+
+}
+
+.about-text{
+    width: 550px;
+
+}
+
+.main{
+    width: 1130px;
+    max-width: 85%;
+    margin: 55px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2{
+    color: black;
+    font-size: 55px;
+    font-weight:bolder;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    padding-left: 15px;
+
+}
+
+.about-text h5{
+    color:black;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    padding-left: 15px;
+}
+
+.about-text p{
+    color:white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    padding-left: 15px;
+}
+
+button{
+    background-color: aqua;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+button:hover{
+    background-color: transparent;
+    border: 2px solid aqua;
+    cursor: pointer;
+}
+
+.service{
+    background: rgb(40, 41, 43);
+    width: 100%;
+    margin-top: -45px;
+    padding: 200px, 0px;
+
+}
+
+.title h2{
+    color:black;
+    font-size: 95px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+
+}
+
+.box{
+    display:flex;
+    margin-top: 65px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+
+}
+
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15 px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    background: #191919;
+}
+
+h5{
+    color: black;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.pra p{
+    color: white;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+
+}
+
+.card .button{
+    background-color: aqua;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid aqua;
+    cursor: pointer;
+}
+
+.contact-me{
+    width: 100%;
+    height: 290px;
+    background:#191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-me p{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.contact-me .button-two{
+    background-color: aqua;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+
+}
+
+.contact-me .button-two:hover{
+    background-color: transparent;
+    border: 2px solid aqua;
+    cursor: pointer;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background:#191919;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -45px;
+}
+
+footer p:nth-child(1){
+    font-size: 30px;
+    color: black;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+footer p:nth-child(2) {
+    color: black;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 25px;
+
+}
+
+.social{
+    display:flex;
+}
+
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: aqua;
+    border-radius: 50px;
+    margin: 22px 10px;
+    color:black;
+    text-decoration: none;
+    font-size:20px;
+}
+
+.social a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+
+.end{
+    position: absolute;
+    color:aqua;
+    bottom: 35px;
+    font-size: 14px;
+}
